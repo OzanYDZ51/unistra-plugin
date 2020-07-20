@@ -1,0 +1,41 @@
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+
+.wp-block-lpdwca-container-block {
+    color: $white;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding: 3rem;
+    &.left {
+      border-bottom-left-radius: 12rem!important;
+      border-top-right-radius: 12rem!important;
+      
+    }
+    &.right {
+      border-bottom-right-radius: 12rem!important;
+      border-top-left-radius: 12rem!important;
+    }
+}
+
+@media screen and (min-width: 769px) {
+  .wp-block-lpdwca-container-block {
+      &.left {
+        border-bottom-left-radius: 6rem!important;
+        border-top-right-radius: 6rem!important;
+      }
+      &.right {
+        border-bottom-right-radius: 6rem!important;
+        border-top-left-radius: 6rem!important;
+      }
+  }
+}
+
+.blue-light {
+  background-color: $blue-light;
+}
+.blue-dark {
+  background-color: $blue-dark;
+}

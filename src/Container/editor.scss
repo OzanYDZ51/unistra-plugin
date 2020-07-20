@@ -1,0 +1,15 @@
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+
+ option.blue-light  {
+   background-color: $blue-light;
+   padding: 1rem 2rem;
+ }
+ option.blue-dark  {
+   background-color: $blue-dark;
+   padding: 1rem 2rem;
+ }
